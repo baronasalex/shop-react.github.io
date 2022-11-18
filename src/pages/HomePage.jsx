@@ -1,7 +1,7 @@
 import React from "react";
 import NavbarShop from "../components/Navbar";
 import ControlledCarousel from "../components/ControlledCarousel";
-import CatalogeMain from "../components/CatalogeMain";
+import CatalogeMain from "./CatalogeMain";
 import Footer from "../components/Footer";
 
 const HomePage = () => {

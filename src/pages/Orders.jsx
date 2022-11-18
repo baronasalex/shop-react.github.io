@@ -2,7 +2,7 @@ import React from "react";
 import NavbarShop from "../components/Navbar";
 import Footer from "../components/Footer";
 
-const Ordres = () => {
+const Orders = () => {
   return (
     <div>
       <NavbarShop />
@@ -12,4 +12,4 @@ const Ordres = () => {
   );
 };
 
-export default Ordres;
+export default Orders;

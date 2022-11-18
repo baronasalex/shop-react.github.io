@@ -78,4 +78,6 @@ export class ProductPage extends Component {
   }
 }
 
+
 export default ProductPage;
+

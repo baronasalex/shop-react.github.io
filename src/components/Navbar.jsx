@@ -9,14 +9,15 @@ import {
   Dropdown,
   Row,
 } from "react-bootstrap";
-import Cataloge from "./Cataloge";
+
 import {
   Search,
-  Cart4,
   BookmarkHeart,
   Person,
   CardChecklist,
 } from "react-bootstrap-icons";
+import Cataloge from "./Cataloge";
+import CartOffCanvas from "./CartOffCanvas";
 
 const NavbarShop = () => {
   return (
@@ -73,12 +74,7 @@ const NavbarShop = () => {
             </Row>
           </Nav.Link>
 
-          <Nav.Link href="/cart" className="text-center mt-3">
-            <Row>
-              <Cart4 size={28} /> <p>Корзина</p>
-            </Row>
-            <div className="in-cart h6">1</div>
-          </Nav.Link>
+          <CartOffCanvas />
         </Navbar.Collapse>
       </Container>
     </Navbar>
